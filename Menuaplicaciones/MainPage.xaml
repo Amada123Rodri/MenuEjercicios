@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuaplicaciones.MainPage">
+
+    <StackLayout>
+        <Label Text="MENU DE APLICACIONES" 
+       VerticalOptions="CenterAndExpand" 
+       HorizontalOptions="CenterAndExpand" 
+       FontSize="30" 
+       TextColor="White" />
+
+        <Button Text="NUMEROS PARES DEL 0 AL 100" Clicked="OnPage1ButtonClicked"/>
+        <Button Text="CUENTA REGRESIVA 10 AL 0" Clicked="OnPage2ButtonClicked"/>
+        <Button Text="TABLAS DE MULTIPLICAR DEL 1 AL 10 " Clicked="OnPage3ButtonClicked"/>
+        <Button Text="SUELDO SEMANAL" Clicked="OnPage4ButtonClicked"/>
+        <Button Text="LANGOSTA AHUMADA" Clicked="OnPage5ButtonClicked"/>
+        <Button Text="EMPRESA IMPORTADORA" Clicked="OnPage6ButtonClicked"/>
+    </StackLayout>
+
+</ContentPage>

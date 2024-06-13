@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menuaplicaciones.pagina4"
+             Title="SUELDO SEMANAL">
+    <StackLayout Padding="20">
+        <Entry Placeholder="Horas trabajadas" x:Name="horasEntry"/>
+        <Entry Placeholder="Pago por hora" x:Name="pagoPorHoraEntry"/>
+        <Button Text="Calcular sueldo semanal" Clicked="CalcularSueldoSemana_Clicked"/>
+        <Label Text="Sueldo semanal:" x:Name="sueldoLabel"/>
+    </StackLayout>
+</ContentPage>
